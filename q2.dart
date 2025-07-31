@@ -11,7 +11,6 @@ void main() {
   int num3 = 15;
   int largest;
 
-  // Using if-else to find the largest number
   if (num1 >= num2 && num1 >= num3) {
     largest = num1;
   } else if (num2 >= num1 && num2 >= num3) {
