@@ -33,16 +33,16 @@ void main() {
     input = stdin.readLineSync()!;
     String operator = input[1];
     if (operator == '+') {
-      print(int.parse(input[0]) + int.parse(input[0]));
+      print(int.parse(input[0]) + int.parse(input[2]));
     }
     if (operator == '-') {
-      print(int.parse(input[0]) - int.parse(input[0]));
+      print(int.parse(input[0]) - int.parse(input[2]));
     }
     if (operator == '*') {
-      print(int.parse(input[0]) * int.parse(input[0]));
+      print(int.parse(input[0]) * int.parse(input[2]));
     }
     if (operator == '/') {
-      print(int.parse(input[0]) / int.parse(input[0]));
+      print(int.parse(input[0]) / int.parse(input[2]));
     }
   } while (input != 'quit');
 }
